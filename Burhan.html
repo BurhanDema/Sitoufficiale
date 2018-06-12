@@ -156,20 +156,15 @@
 					  
 					  <!--Codice PHP scritta in HTML-->
 						<code>	
-							<?php 
-								$conoscenze =[
-										'Conoscenza di quasi tutti i sistemi operativi sia per personal computer ',
-										'Conoscenza dei linguaggi di programmazione',
-										'Competenza sul settore Hardware',
-										'Competenza sul settore delle reti',
-										'Competenze sulla sicurezza informatica',
-										'Conoscenza sulla virtualizzazione',
-										];
-
-									foreach ($conoscenze as $key =>$value){
-										print "<li>$value</li>";
-										}
-							?>
+							&lt;?php $conoscenze =[ 'Conoscenza di quasi tutti i sistemi operativi sia per personal computer ', 
+													'Conoscenza dei linguaggi di programmazione', 'Competenza sul settore Hardware', 
+													'Competenza sul settore delle reti', 'Competenze sulla sicurezza informatica', 
+													'Conoscenza sulla virtualizzazione', ]
+													
+													; foreach ($conoscenze as $key =&gt;$value){ 
+															print &quot;&lt;li&gt;$value&lt;/li&gt;&quot;; 
+															} 
+							?&gt
 						</code>
 					</div>
 				
